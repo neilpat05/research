@@ -24,10 +24,18 @@ h3{
   font-size: 1.5rem;
 }
 
+
+
 .container-fluid{
   padding: 7% 15% 7%;
 
 }
+
+::selection {
+  background: #ef8172;
+}
+
+
 
 /* Navigation Bar */
 
@@ -139,10 +147,23 @@ padding: 5%;
   padding: 3% 2%;
 }
 
+/* On mobiles */
+
+
 @media (max-width: 1028px) {
 
   #title{
     text-align: center;
+  }
+
+  .fixed-top{
+    padding: 0 2% 0;
+    background-color: #66BFBF;
+
+  }
+  .container-fluid{
+    padding: 7% 0 7%;
+
   }
   .title-img{
 margin-left: 0;
@@ -152,6 +173,7 @@ margin-left: 0;
   }
 
   .title-h1{
+
     margin-top: 2rem;
   }
 }
@@ -241,3 +263,4 @@ padding: 0%;
 #content-mobile {display: block;}
 
 }
+
